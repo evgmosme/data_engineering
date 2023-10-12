@@ -1,4 +1,6 @@
-# Overview:
+# ScyllaDB Data Loader
+
+## Overview:
 This utility script provides a streamlined way to process and load large volumes of financial data into a ScyllaDB database. It primarily targets minute-resolution, adjusted-split financial bars but can be adapted for different data structures. In addition to its core functionalities, it offers the `fetch_minute_data` function to retrieve specific minute-level datasets from the database. The script uses efficient techniques such as multiprocessing, batching, and asynchronous fetching to enhance speed and consistency.
 
 ---
